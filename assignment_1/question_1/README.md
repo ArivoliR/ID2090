@@ -8,18 +8,22 @@ directory to find a README file. Follow the instructions given in your respectiv
 instructions at every stage and obtain the final key. Name your answer script as question1.sh, and
 attach the key in this shell script. Executing your script should only output the key you find. Feel free
 to use the man pages for commands as and when required. Happy hunting!
+*question cannot be attempted without access to VM*
 
-
-### Application
-Minor numerical operations on a regular dataset in a csv file is a typical task in
-data analysis.
+### Note
+The hunt.sh.x file can be found in /var/home/Jan24/assignments/assignment_1
 
 ## Solution
 
-**Commands Used:** `cd, ls, grep, find, strings, xz, bzip2, gzip`
+**Commands Used:** `cd, ls, grep, find, file, mv, strings, xz, bzip2, gzip`
 
 ### Usage
 
 ```bash
-find | grep .
+./question_1.sh
 ``` 
+### Output 
+```bash
+83a6466ad07470d4062a9aaf006a678b50520f23c89148e327660b800bd1a80b
+b8afb5141b0ad941e246e3266d2c873130d9fa14d0c0b502538aef18be50e252
+```
