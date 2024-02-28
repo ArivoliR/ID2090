@@ -22,8 +22,3 @@ The hunt.sh.x file can be found in /var/home/Jan24/assignments/assignment_1
 ```bash
 ./question_1.sh
 ``` 
-### Output 
-```bash
-83a6466ad07470d4062a9aaf006a678b50520f23c89148e327660b800bd1a80b
-b8afb5141b0ad941e246e3266d2c873130d9fa14d0c0b502538aef18be50e252
-```
