@@ -1,3 +1,6 @@
 In assignment1/question1 
-'''cat README.md'''
+```bash
+cat README.md
+```
+
 
