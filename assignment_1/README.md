@@ -9,5 +9,8 @@ attach the key in this shell script. Executing your script should only output th
 to use the man pages for commands as and when required. Happy hunting!
 
 ## Question 2
+Recurrence relations are often encountered in modeling the dynamics of processes, analyzing algorithms, 2.
+and generating sequences. The Fibonacci sequence is the simplest and most famous recurrence relation.
+In this exercise, you are tasked with finding the n<sup>th</sup> term in a generalized recurrence relation given by:
 
 ## Question 3
