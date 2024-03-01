@@ -20,4 +20,7 @@ ee23b008@ID2090:~/assignment_1/question_1/0d$ cat .gh6st
 You successfully caught Giratina with the Pokeball. Here I am to serve you.
  Go to the directory number 0 and file number 5.
 Remember: The next instruction is prepended with many ampersands in the file.
+
+ee23b008@ID2090:~/assignment_1/question_1/0d/0d$ strings 5 | grep '&&&&'
+&&&&dIIR#8	fiL#2	Mult1P ly	c0m preSsed	f1Le	@ he@d:Tr Y_Ur_LuCk_&_Dec 0mpreSS_iT	k
 ```
