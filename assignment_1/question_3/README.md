@@ -23,10 +23,10 @@ ae23b010,guhaan
 <and so on>
 ```
 
-## Brownie Points: 
+### Brownie Points: 
 For not hardcoding all the encodings and identifying the underlying function used
 on the ASCII values of each character. Also, mention the approach you took to guess the function.
 
-## Hint:
+### Hint:
 Try looking up on   gnuplot   and plot the encodings for subsequent ASCII values (alphabets) and
 guess the function by its shape.
