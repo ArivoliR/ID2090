@@ -26,7 +26,7 @@ ee23b008@ID2090:~/assignment_1/question_1/0d/0d$ strings 5 | grep '&&&&'
 ```
 
 Now you'll find a file thats been compressed around 10 times. 
-Use file function to figure out which, rename the file to the correspodining suffix 
+Use file command to figure out which, rename the file to the correspodining suffix 
 (5.txt shld be renamed to 5.gz so that you can used gzip decompress)
 
 final output:
