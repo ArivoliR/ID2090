@@ -19,14 +19,14 @@ Your program must check whether the correct input format is followed and throw a
 
 ## Input: 
 `initial.txt`
-1, 1, 1, 1, 1
-`testcases.txt`
-3
-14
-27
-18
+1, 1, 1, 1, 1\
+`testcases.txt`\
+3\
+14\
+27\
+18\
 
 ## Output:
-377
-196418
+377\
+196418\
 2584
