@@ -24,7 +24,7 @@ Your program must check whether the correct input format is followed and throw a
 3\
 14\
 27\
-18\
+18
 
 ## Output:
 377\
