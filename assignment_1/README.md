@@ -25,4 +25,5 @@ The first 52 lines specify how each character from the alphabet is encoded in a 
 The second part of the file (subsequent lines) contains encoded values for each username/roll number. 
 Your program must utilize the encodings to decode the encoded names for each username in the second part of the file and output the names. 
 Save the output of the decoded file onto `output.txt`. 
+
 Use `curl` on the [website](https://id2090assignment1.s3.ap-south-1.amazonaws.com/Q3.txt) to obtain the file.
