@@ -28,5 +28,5 @@ For not hardcoding all the encodings and identifying the underlying function use
 on the ASCII values of each character. Also, mention the approach you took to guess the function.
 
 ### Hint:
-Try looking up on   gnuplot   and plot the encodings for subsequent ASCII values (alphabets) and
+Try looking up on `gnuplot` and plot the encodings for subsequent ASCII values (alphabets) and
 guess the function by its shape.
