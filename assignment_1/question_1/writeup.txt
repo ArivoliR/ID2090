@@ -1,0 +1,3 @@
+In assignment1/question1 
+cat README.md
+
