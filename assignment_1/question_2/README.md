@@ -18,7 +18,7 @@ Your program must check whether the correct input format is followed and throw a
 ```
 
 ## Input: 
-`initial.txt`
+`initial.txt`\
 1, 1, 1, 1, 1\
 `testcases.txt`\
 3\
