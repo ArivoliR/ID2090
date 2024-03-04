@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-#
+
 #Check if there are 2 command line arguments
 if [ "$#" -ne 2 ]; then
 	echo "Usage: $0 <file1> <file2>"
@@ -34,14 +34,29 @@ calculate_nth_term() {
 
 	echo $current
 }
+
 # Reading coefficients from inital.txt
 read -r a b c f1 f2 <<<"$(cat "$1" | tr -d ',')"
-#echo "Inputs: a=$a, b=$b, c=$c, f1=$f1, f2=$f2"
+#echo "Coefficients: a=$a, b=$b, c=$c, f1=$f1, f2=$f2"
+if [[ -z $a || -z $b || -z $c || -z $f1 || -z $f2 ]]; then
+	echo "Error: All coefficients (a, b, c, f1, f2) must be provided in initial.txt."
+	exit 1
+fi
 
 IFS= read -r num_testcases <"$2"
 #echo "Number of test cases: $num_testcases"
 
-for ((i = 0; i < num_testcases; i++)); do
+display_correct_usage() {
+	echo "Correct usage: <number of test cases> <test case 1> <test case 2> ..."
+}
+actual_num_testcases=$(tail -n +2 "$2" | wc -l)
+if [[ $num_testcases -ne $actual_num_testcases ]]; then
+	echo "Error: Number of test cases provided ($actual_num_testcases) does not match the specified number ($num_testcases)."
+	display_correct_usage
+	exit 1
+fi
+
+for ((i = 0; i < actual_num_testcases; i++)); do
 	IFS= read -r n
 	result=$(calculate_nth_term "$n" "$a" "$b" "$c" "$f1" "$f2")
 	#echo "For n=$n, nth term: $result"
