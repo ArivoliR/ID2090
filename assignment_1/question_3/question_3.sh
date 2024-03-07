@@ -1,5 +1,15 @@
 #!/usr/bin/bash
-#
+<<COMMENT
+Name: Arivoli Ramamoorthy
+Roll number: EE23B008
+Date: 02-03-2024
+Description: 
+-The program decodes encoded names using provided encoding rules.
+Input: Encoded values for usernames/roll numbers.
+Output: Roll number, Decoded names saved in "output.txt".
+COMMENT
+
+
 #Tried dividing the encoded number by the ASCII of the corresponding alphabet. Found a pattern
 #A=65*202; B=66*204; C=67*206.....
 #for increment by 1 in ascii, the multiplying factor increased by two.
@@ -33,3 +43,4 @@ done >output.txt
 
 # Clean up temporary file
 rm temp_file.txt
+
