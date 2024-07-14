@@ -1,5 +1,5 @@
 # Assignment 6
-## Question 1 - Treasure Hunt
+## Question 1 - Treasure Hunt (soln not in github)
 ### Context
 Treasure Hunt is back, this time, more fun!! Arceus, the legendary Pokemon, took refuge in
 Sinnoh mountains, after its creation, Giratina is caught by the PokeMaster - you.
@@ -12,7 +12,7 @@ catch Arceus using the Master Ball. The result ? The Pokemon world and hence the
 Note that when you get to the right version of the file, you will see the clear ASCII picture of Arceus,
 whereas the rest of them would show its illusions!!
 
-## Question 2 - Image Processing
+## Question 2 - Image Processing (soln files uploaded above)
 You have been given two images, the original Lena as well as a distorted version of her.
 ### Task
 - By taking up kernels for at least two different image operations (such as brightness change, contrast change, gamma correction, motion blur, edge detection, etc.), illustrate how the image is modified.
@@ -20,6 +20,6 @@ You have been given two images, the original Lena as well as a distorted version
 - Having worked with Fourier Transforms in the previous assignment, can you figure out a way to filter noise from the image by manipulating its values in the frequency domain? How does this perform against the kernel method above? Can you comment on the nature of noise that would be suitable for these various methods?
 For the boundary pixels, you can either skip them or consider a periodic boundary condition as you wish. You can also try padding the image.
 
-## Question 3 - Reflection
+## Question 3 - Reflection (report has been uploaded above)
 ### Task
 Write a LaTex report which contains your observations and the overall conclusion you got from performing the tasks above.
