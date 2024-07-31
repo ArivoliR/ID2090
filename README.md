@@ -1,6 +1,6 @@
 # ID2090 Introduction to Scientific Computing
 
-# Solutions to Assignments Jan-May 2024
+## Solutions to Assignments Jan-May 2024
 
 Assignments solved using, python, shell scripts, sagemath, and octave code. Reports written in LaTex for the same.
 - Solutions are mostly submitted as .sh files (bash scripts), but the code inside utilizes the above mentioned langauges.
