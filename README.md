@@ -1,4 +1,4 @@
-# ID2090
+# ID2090 Introduction to Scientific Computing
 
 # Solutions to Assignments Jan-May 2024
 
