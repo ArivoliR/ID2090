@@ -32,4 +32,10 @@ as “fake”. The dataset is located at `/var/home/Jan24/assignments/assignment
 
 ## Question 3
 
+You are given a .csv in which each row is considered as a document (d) and the rows constitute the
+collection of documents (D). Assume that only periods (‘.’) and commas (‘,’) are only punctuations
+present in the documents.
+(a) Given a term t, return its TF-IDF index (accurate to 4 decimal places).
+(b) If no arguments are passed when calling question_3.sh, return the top-5 terms (with values) in
+decreasing order of TF-IDF index.
 
