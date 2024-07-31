@@ -1,6 +1,4 @@
-# Question 3
-
-## TF-IDF Index Calculation
+# TF-IDF Index Calculation
 
 **Term Frequency Inverse Document Frequency (TF-IDF, for short)** is a measure of the importance of a term (t) to a document (d) in a collection of documents (D). For this task, we define:
 
