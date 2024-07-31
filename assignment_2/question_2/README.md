@@ -18,15 +18,15 @@ as “fake”. The dataset is located at `/var/home/Jan24/assignments/assignment
 ./question_2.sh final_dataset.txt > out.csv
 
 ## Input:
-Vehicle Number, SoC, Mileage(in m), Charging Time(in min), SoH, Driver Name
-RB-34-XE 86 11180 12 21 VHMSKKUC
-                  40
-AG-22-QA 2  1170  81 9  MUAYENW
-LT-20-TV 0  5961  90 52 NBBLNBG
+Vehicle Number, SoC, Mileage(in m), Charging Time(in min), SoH, Driver Name <br />
+RB-34-XE 86 11180 12 21 VHMSKKUC <br />
+                  40             <br />
+AG-22-QA 2  1170  81 9  MUAYENW  <br />
+LT-20-TV 0  5961  90 52 NBBLNBG  <br />
 
 ## Output:
-out.csv
-Vehicle Number, SoC, Mileage(in m), Charging Time(in min), SoH, Driver Name, Flag
-RB-34-XE 86 11180 12 21 ESNHPHFX
-AG-22-QA 9  1170  81 2  NFAZBVM
-LT-20-TV 0  5961  90 52 MYYOYMT Fake
+out.csv<br />
+Vehicle Number, SoC, Mileage(in m), Charging Time(in min), SoH, Driver Name, Flag<br />
+RB-34-XE 86 11180 12 21 ESNHPHFX<br />
+AG-22-QA 9  1170  81 2  NFAZBVM<br />
+LT-20-TV 0  5961  90 52 MYYOYMT Fake<br />
