@@ -35,7 +35,24 @@ as “fake”. The dataset is located at `/var/home/Jan24/assignments/assignment
 You are given a .csv in which each row is considered as a document (d) and the rows constitute the
 collection of documents (D). Assume that only periods (‘.’) and commas (‘,’) are only punctuations
 present in the documents. <br />
-(a) Given a term t, return its TF-IDF index (accurate to 4 decimal places).
+(a) Given a term t, return its TF-IDF index (accurate to 4 decimal places). <br />
 (b) If no arguments are passed when calling question_3.sh, return the top-5 terms (with values) in
 decreasing order of TF-IDF index.
 
+## Question 4
+
+Structured Query Language (SQL) is extensively used to manage databases and is designed to query 4.
+data in relational databases. In this exercise, you are tasked to replicate one of SQL’s fundamental
+features JOIN using (preferably) awk or a combination of join, sort and sed (and other commands as
+needed).<br />
+The JOIN clause is used to combine rows from two (or more) tables based on some relation common
+between them. SQL offers four types of JOINs (Fig. 1), namely<br />
+– INNER JOIN: Returns records that have matching values in both tables,<br />
+– LEFT JOIN: Returns all records from the left table, and the matched records from the right table,<br />
+– RIGHT JOIN: Returns all records from the right table, and the matched records from the left table,<br />
+– FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table<br />
+
+(a) Write a bash script with flags (‘-I’ for INNER JOIN, ‘-L’ for LEFT JOIN, ‘-R’ for RIGHT JOIN and
+‘-F’ for FULL JOIN) to parse two .csv files (with fixed columns) and output the joined .csv file <br />
+(b) Extend sub-part (a) to adapt for generic csv files (no restriction on number of columns). You may
+assume that the columns names across the two files will be identical.
