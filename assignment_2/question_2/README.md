@@ -21,7 +21,7 @@ as “fake”. The dataset is located at `/var/home/Jan24/assignments/assignment
 Vehicle Number, SoC, Mileage(in m), Charging Time(in min), SoH, Driver Name <br />
 RB-34-XE 86 11180 12 21 VHMSKKUC <br />
                   40             <br />
-AG-22-QA 2  1170  81 9  MUAYENW  <br />
+AG-22-QA 2  1170  81 9  MUAYENW  <br /> 
 LT-20-TV 0  5961  90 52 NBBLNBG  <br />
 
 ## Output:
